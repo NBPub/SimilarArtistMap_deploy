@@ -103,4 +103,4 @@ def update_graph(artist, layout, add_neighbors):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
