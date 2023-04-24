@@ -4,6 +4,7 @@ Visualize similar artist maps for musical artists in your library.
 
 
  
- ## Demonstration Site [Link]()
+ ## [Demonstration Site](https://similarartistmap.onrender.com/)
  
  - repository holds source code for Render website
+ - see [other repository](https://github.com/NBPub/SimilarArtistMap) for more information about project
