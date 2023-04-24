@@ -34,6 +34,8 @@ art_list = list(similar_artists.keys())
 app = Dash(__name__,  title="Sim Art Map",
            external_stylesheets=[dbc.themes.DARKLY])
 
+server = app.server         
+
 app.layout = html.Div([ 
     html.Div(dcc.Link('Network Layout Reference',
              href = "https://networkx.org/documentation/stable/reference/drawing.html#module-networkx.drawing.layout"),
