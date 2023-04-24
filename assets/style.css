@@ -1,0 +1,72 @@
+/* SELECT BOX */
+/* input box */
+.Select-control {
+    background-color: black;
+    border-color: lightseagreen;
+	width: 40vw;
+}
+
+/* don't change background to white when open (hides search text) */
+.is-open > .Select-control {
+    background-color: black;
+	color: grey;
+}
+
+/* changes the text color of input box */ 
+.Select-value-label {
+    color: limegreen !important;
+}
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: black;
+    color: white;
+ }
+
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: black;
+    opacity: .7;
+}
+
+/* border on focus, shadow box around input box - default is blue */
+.is-focused:not(.is-open) > .Select-control {
+	border-color: lightseagreen; 
+	box-shadow: none;
+}
+
+/* Input Group */
+/* radio font */
+.input-group {
+	color: deeppink;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* radio buttons */
+input[type='radio']{
+    width: 18px;
+    height: 18px;
+	margin-right:8px;
+}
+
+/* Header */
+h1  {
+	color: moccasin; 
+}
+
+/* Graph */
+#graph-content {
+	height: 60vh;
+	width: 80vw;
+	margin: auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  text-align: center;
+}
